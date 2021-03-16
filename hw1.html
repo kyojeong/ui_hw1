@@ -7,18 +7,38 @@
 			body{
 				background-color:#FFFAF0;
 				text-align:center;
+
 			}
-			#one{
+
+			#zero{
 				background-color:#FFE4C4;
-				width: 100%;
+				width: 15%;
 				height: 70px;
+				float:left;
+				margin-bottom:20px;
+				text-align:left;
 				
 			}
+				
+			#one{
+				background-color:#FFE4C4;
+				width: 85%;
+				height: 70px;
+				float:left;
+				margin-bottom:20px;
+				text-align:right;
+				
+			}
+			#two{
+				width: 100%;
+				display:inline-block;
+				height:300px;
+			}
 			p{
-				margin: 0px;
+				margin:0px;
 			}
 			p.a{
-				margin-top: 50px;
+				
 				font-size:40px;
 				padding-bottom:5px;
 				
@@ -34,16 +54,16 @@
 				color: gray;
 				margin: 30px;
 			}
-			img{
-				width:300px;
-				height:300px;
-			}
+			
 			p.d{
-				font-size: 20px;
-				text-align:right;
+				font-size: 22px;
+				
 				color:white;
 				font-weight: bold;
-				padding:10px;
+				vertical-align: middle;
+				display:inline-block;
+				line-height:70px;
+				margin-right:10px;
 			}
 			b{
 				color:#FFE4C4;
@@ -51,27 +71,36 @@
 				padding:10px;
 			}
 			
-			img.logo{
-				width: 50px;
-				height: 50px;
-				margin-right:770px;
-				vertical-align: middle;
-
-			}
 			button{
 				font-size:25px;
 				color: white;
 				background-color:#99CCCC;
-				padding:5px;
-				margin-top:10px;
+				padding:10px;
+				margin-top:20px;
+				border-top-left-radius: 30px;
+				border-bottom-right-radius: 30px;
+				border-top-right-radius: 30px;
+				border-bottom-left-radius: 30px;
 			}
-				
+			img.logo{
+				width:70px;
+				height:70px;
+				margin-left:10px;
+				z-index:-1;
+			}
+			img{
+				width:20%;
+				height:100%;
+			}
 		</style>
 	</head>
 	<body>
+		<div id="zero">
+			<img class="logo" src="https://ourplanetary.com/wp-content/uploads/2017/07/logo_blog-1-2.png" />
+		</div>
 		<div id="one">	
 			<p class="d"> 	
-				<img class="logo" src="https://ourplanetary.com/wp-content/uploads/2017/07/logo_blog-1-2.png" />		
+						
 				電子手帳 &emsp; 手帳素材 &emsp;  購物車 &emsp; 使用教學 &emsp; 會員中心 &emsp;<b>登入/註冊</b>
 			</p>
 		</div>
